@@ -1,16 +1,55 @@
-# weather_app
+# 🌤️ Weather App
 
-A new Flutter project.
+A simple Flutter app to display current weather, forecast, and additional weather information using the **OpenWeatherMap API**.
 
-## Getting Started
+This app fetches weather data for a given city and shows:
+- Current temperature & weather condition
+- 10-hour weather forecast
+- Additional info like humidity, wind speed, and pressure
+- City search with instant weather updates
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
+- Fetches real-time weather from OpenWeatherMap API
+- City search using TextField
+- Weather forecast for next few hours
+- Additional weather details (humidity, wind speed, pressure)
+- Clean & modern Material 3 UI (dark theme)
+- Uses:
+  - `http` package for API requests
+  - `intl` package for time formatting
+  - `dart:convert` for JSON parsing
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🖼️ Screenshots
+*(Add screenshots here if you wish)*
+
+---
+
+## 🛠️ Tech Stack
+| Feature               | Technology           |
+|-----------------------|----------------------|
+| Framework             | Flutter 3.x          |
+| Language              | Dart 3.x             |
+| API                   | OpenWeatherMap       |
+| State Management      | setState (Flutter)   |
+| HTTP Requests         | http package         |
+| JSON Parsing          | dart:convert         |
+| Time Formatting       | intl package         |
+| IDE                   | VS Code / Android Studio |
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+- Flutter SDK installed → [Install Flutter](https://flutter.dev/docs/get-started/install)
+- OpenWeatherMap API Key → [Get API Key](https://openweathermap.org/api)
+
+### ✅ Setup
+1. Clone the repository:
+```bash
+git clone https://github.com/GoldleoM/weather_app.git
+cd weather_app
