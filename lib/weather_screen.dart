@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:ui';
-import 'package:flutter/rendering.dart';
 import 'package:intl/intl.dart';
 import 'additional_info.dart';
 import 'forecast_item.dart';
